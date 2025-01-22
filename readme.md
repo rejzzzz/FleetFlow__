@@ -8,33 +8,27 @@ This project is a fleet management system that allows you to manage your fleet o
 └── 📁FleetFlow
     └── 📁.vscode
         └── settings.json
-    └── 📁backend
-        └── package.json
-        └── pnpm-lock.yaml
-        └── 📁src
-            └── app.ts
-            └── constants.ts
-            └── 📁controllers
-            └── 📁database
-            └── 📁middlewares
-            └── 📁models
-            └── 📁routes
-                └── 📁types
-            └── server.ts
-            └── 📁utils
-                └── ApiError.ts
-                └── ApiResponse.ts
-                └── AsyncHandler.ts
-    └── 📁frontend
-        └── package.json
-        └── pnpm-lock.yaml
-        └── 📁src
-            └── index.ts
-            └── 📁scripts
-            └── 📁views
-                └── home.ejs
-        └── vite.config.ts
+    └── 📁node_modules
     └── 📁public
+    └── 📁src
+        └── 📁controllers
+        └── 📁database
+        └── 📁middlewares
+        └── 📁models
+            └── vehicles.models.ts
+        └── 📁routes
+            └── 📁types
+        └── 📁styles
+            └── reset.css
+        └── 📁utils
+            └── ApiError.ts
+            └── ApiResponse.ts
+            └── AsyncHandler.ts
+        └── 📁views
+            └── index.ejs
+        └── app.ts
+        └── constants.ts
+        └── server.ts
     └── .env
     └── .eslintrc.json
     └── .gitignore
@@ -45,15 +39,3 @@ This project is a fleet management system that allows you to manage your fleet o
     └── readme.md
     └── tsconfig.json
 ```
-
-└── 📁frontend
-└── package.json
-└── pnpm-lock.yaml
-└── vite.config.ts
-└── 📁src
-└── index.ejs
-└── main.ts
-└── styles.css
-└── 📁public
-└── assets/
-└── tsconfig.json
