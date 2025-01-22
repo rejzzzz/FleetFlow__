@@ -1,0 +1,41 @@
+{
+    "name": "fleet-flow",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.ts",
+    "scripts": {
+        "dev": "pnpm tsx watch src/server.ts",
+        "build": "pnpm run build",
+        "lint": "eslint . --ext .js,.ts,.tsx",
+        "format": "prettier --write .",
+        "lint:fix": "eslint . --ext .js,.ts,.tsx --fix"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/cookie-parser": "^1.4.8",
+        "@types/cors": "^2.8.17",
+        "@types/ejs": "^3.1.5",
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.10.7",
+        "concurrently": "^9.1.2",
+        "eslint": "^9.18.0",
+        "eslint-config-prettier": "^10.0.1",
+        "eslint-plugin-prettier": "^5.2.3",
+        "prettier": "^3.4.2",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.19.2",
+        "typescript": "^5.7.3"
+    },
+    "dependencies": {
+        "autoprefixer": "^10.4.20",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "ejs": "^3.1.10",
+        "express": "^4.21.2",
+        "postcss": "^8.5.1",
+        "tailwindcss": "^3.4.17"
+    }
+}
