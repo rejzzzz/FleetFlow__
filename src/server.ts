@@ -1,6 +1,5 @@
 import dotenv from 'dotenv'
 import { Request, Response } from 'express'
-import path from 'path'
 import app from './app'
 
 dotenv.config({
