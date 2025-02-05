@@ -1,8 +1,8 @@
-import express from 'express'
+import express, { Application } from 'express'
 import path from 'path'
 import cors from 'cors'
 
-const app = express()
+const app: Application = express()
 
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, 'views'))

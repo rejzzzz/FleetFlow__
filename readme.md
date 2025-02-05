@@ -39,7 +39,8 @@ This project is a fleet management system that allows you to manage your fleet o
     └── readme.md
     └── tsconfig.json
 ```
-### Run it locally:
+
+### Run it locally
 
 1. `git clone https://github.com/InventedSarawak/FleetFlow.git`
 
